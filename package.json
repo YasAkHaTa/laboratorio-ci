@@ -2,7 +2,7 @@
   "name": "laboratorio-ci",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "pedido.js",
   "scripts": {
     "test": "jest"
   },
