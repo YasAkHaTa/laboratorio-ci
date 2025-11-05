@@ -1,5 +1,5 @@
 const { calcularTotalPedido } = require('./pedido');
-const { validarDescuento } = require('./funcionGrupo2');
+const { validarDescuento } = require('./funcionGrupo6');
 
 describe('Integración: calcularTotalPedido + validarDescuento', () => {
   test('flujo completo: calcular total y validar descuento', () => {
@@ -9,3 +9,6 @@ describe('Integración: calcularTotalPedido + validarDescuento', () => {
     expect(resultado).toBe(total);
   });
 });
+
+
+

@@ -1,4 +1,4 @@
-const { validarDescuento } = require('./funcionGrupo2');
+const { validarDescuento } = require('./funcionGrupo6');
 
 describe('validarDescuento', () => {
   const productosValidos = [{ precio: 100, cantidad: 2 }];
